@@ -24,7 +24,7 @@ export const CreateUser = () => {
 
       <div>
         <label htmlFor="age">Age</label>
-        <input type="number" {...register("age")} />
+        <input type="number" {...register("age", { valueAsNumber: true })} />
       </div>
 
       <button>Submit</button>
