@@ -1,9 +1,14 @@
+import { GetUser } from "./GetUser";
+import { CreateUser } from "./CreateUser";
 
 function App() {
-
   return (
-    <>Yo</>
-  )
+    <div>
+      <GetUser />
+
+      <CreateUser />
+    </div>
+  );
 }
 
-export default App
+export default App;
